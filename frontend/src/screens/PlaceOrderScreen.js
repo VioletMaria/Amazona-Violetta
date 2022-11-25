@@ -102,6 +102,7 @@ export default function PlaceOrderScreen() {
               <Link to="/shipping">Edit</Link>
             </Card.Body>
           </Card>
+
           <Card className="mb-3">
             <Card.Body>
               <Card.Title>Payment</Card.Title>
@@ -111,6 +112,8 @@ export default function PlaceOrderScreen() {
               <Link to="/payment">Edit</Link>
             </Card.Body>
           </Card>
+
+          
           <Card className="mb-3">
             <Card.Body>
               <Card.Title>Items</Card.Title>
@@ -182,7 +185,6 @@ export default function PlaceOrderScreen() {
                     </Button>
                   </div>
                   {loading && <LoadingBox></LoadingBox>}
-
                 </ListGroup.Item>
               </ListGroup>
             </Card.Body>
