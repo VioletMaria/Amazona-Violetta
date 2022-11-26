@@ -1,1 +1,1 @@
-# Amazon Copy Cat
+# Amazon Copy
